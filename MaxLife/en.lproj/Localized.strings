@@ -1,0 +1,34 @@
+/* 
+  Localized.strings
+  MaxLife
+
+  Created by Koson Gou on 26/6/14.
+  Copyright (c) 2014 Kineticspace Limited. All rights reserved.
+*/
+
+/**
+ *  TabBar Controller item
+ *
+ *  @since 1.0.0
+ */
+"HomePage"="Home";
+"ShoppingCarPage"="ShoppingCar";
+"MemberPage"="Member";
+"SettingPage"="Setting";
+
+"SearchBarPlaceholder"="Product search or shop";
+
+/**
+ *  Setting page item
+ *
+ *  @since 1.0.0
+ */
+"AllPurchaseRecords"="All purchase history";
+"WaitingForGoods"="Waiting for goods";
+"NotConfirmGoods"="Not comfirm goods";
+"MyFavoritesProduct"="My favorite product";
+"MemberProfileEdit"="Edit my profile";
+"Address"="Address";
+"CreditCard"="credit card";
+"MemberLogout"="Logout";
+

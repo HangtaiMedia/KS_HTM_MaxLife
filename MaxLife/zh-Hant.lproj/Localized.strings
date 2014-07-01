@@ -1,0 +1,33 @@
+/* 
+  Localized.strings
+  MaxLife
+
+  Created by Koson Gou on 26/6/14.
+  Copyright (c) 2014 Kineticspace Limited. All rights reserved.
+*/
+
+/**
+ *  TabBar Controller item
+ *
+ *  @since 1.0.0
+ */
+"HomePage"="首頁";
+"ShoppingCarPage"="購物車";
+"MemberPage"="會員專區";
+"SettingPage"="設定";
+
+"SearchBarPlaceholder"="產品搜尋、店鋪";
+
+/**
+ *  Setting page item
+ *
+ *  @since 1.0.0
+ */
+"AllPurchaseRecords"="全部購買記錄";
+"WaitingForGoods"="待收貨";
+"NotConfirmGoods"="未確認收貨";
+"MyFavoritesProduct"="產品收藏";
+"MemberProfileEdit"="會員資料修改";
+"Address"="地址";
+"CreditCard"="信用卡資料";
+"MemberLogout"="會員登出";
