@@ -7,12 +7,18 @@
 //
 
 #import "KSViewController.h"
+#import "ProductModel.h"
+#import "ProductsListTableViewCell.h"
 
 /**
  *  This is Shopping car viewController
  *
  *  @since 1.0.0
  */
-@interface ShoppingCarViewController : KSViewController
+@interface ShoppingCarViewController : KSViewController<UITableViewDelegate,UITableViewDataSource>
+{
+    UITableView *productsListTableView;
+    NSArray *productsListArray;
+}
 
 @end

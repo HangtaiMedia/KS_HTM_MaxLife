@@ -45,9 +45,11 @@
 		65B4D811195D054C000694F7 /* tab@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65B4D810195D054C000694F7 /* tab@2x.png */; };
 		65B4D813195D055E000694F7 /* tab1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65B4D812195D055E000694F7 /* tab1@2x.png */; };
 		65B4D818195D17B4000694F7 /* HomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B4D817195D17B4000694F7 /* HomePageViewController.m */; };
-		65B4D81B195D17D1000694F7 /* ShoppingCarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B4D81A195D17D1000694F7 /* ShoppingCarViewController.m */; };
 		65B4D81E195D17DD000694F7 /* MemberViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B4D81D195D17DD000694F7 /* MemberViewController.m */; };
 		65B4D821195D17EC000694F7 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B4D820195D17EC000694F7 /* SettingViewController.m */; };
+		847DE40519624C88007DF2C3 /* ShoppingCarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 847DE40019624C88007DF2C3 /* ShoppingCarViewController.m */; };
+		847DE40619624C88007DF2C3 /* ProductModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 847DE40219624C88007DF2C3 /* ProductModel.m */; };
+		847DE40719624C88007DF2C3 /* ProductsListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 847DE40419624C88007DF2C3 /* ProductsListTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -122,13 +124,17 @@
 		65B4D812195D055E000694F7 /* tab1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab1@2x.png"; sourceTree = "<group>"; };
 		65B4D816195D17B4000694F7 /* HomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageViewController.h; sourceTree = "<group>"; };
 		65B4D817195D17B4000694F7 /* HomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePageViewController.m; sourceTree = "<group>"; };
-		65B4D819195D17D1000694F7 /* ShoppingCarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShoppingCarViewController.h; sourceTree = "<group>"; };
-		65B4D81A195D17D1000694F7 /* ShoppingCarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoppingCarViewController.m; sourceTree = "<group>"; };
 		65B4D81C195D17DD000694F7 /* MemberViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemberViewController.h; sourceTree = "<group>"; };
 		65B4D81D195D17DD000694F7 /* MemberViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemberViewController.m; sourceTree = "<group>"; };
 		65B4D81F195D17EC000694F7 /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
 		65B4D820195D17EC000694F7 /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
 		7DA34140EB1746EFA59CA656 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		847DE3FF19624C88007DF2C3 /* ShoppingCarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShoppingCarViewController.h; sourceTree = "<group>"; };
+		847DE40019624C88007DF2C3 /* ShoppingCarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoppingCarViewController.m; sourceTree = "<group>"; };
+		847DE40119624C88007DF2C3 /* ProductModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductModel.h; sourceTree = "<group>"; };
+		847DE40219624C88007DF2C3 /* ProductModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductModel.m; sourceTree = "<group>"; };
+		847DE40319624C88007DF2C3 /* ProductsListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductsListTableViewCell.h; sourceTree = "<group>"; };
+		847DE40419624C88007DF2C3 /* ProductsListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductsListTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -198,8 +204,12 @@
 		6588C912195BE75A0006D00B /* ShoppingCarViewController */ = {
 			isa = PBXGroup;
 			children = (
-				65B4D819195D17D1000694F7 /* ShoppingCarViewController.h */,
-				65B4D81A195D17D1000694F7 /* ShoppingCarViewController.m */,
+				847DE3FF19624C88007DF2C3 /* ShoppingCarViewController.h */,
+				847DE40019624C88007DF2C3 /* ShoppingCarViewController.m */,
+				847DE40119624C88007DF2C3 /* ProductModel.h */,
+				847DE40219624C88007DF2C3 /* ProductModel.m */,
+				847DE40319624C88007DF2C3 /* ProductsListTableViewCell.h */,
+				847DE40419624C88007DF2C3 /* ProductsListTableViewCell.m */,
 			);
 			name = ShoppingCarViewController;
 			sourceTree = "<group>";
@@ -574,18 +584,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				6588C91A195BEA930006D00B /* KSCustomButton.m in Sources */,
+				847DE40519624C88007DF2C3 /* ShoppingCarViewController.m in Sources */,
 				65AAB16C195BE46300F1DE12 /* KSViewController.m in Sources */,
 				65348E5819615E28005796F2 /* MemberPage.m in Sources */,
 				65B4D818195D17B4000694F7 /* HomePageViewController.m in Sources */,
 				65AAB126195BDF9100F1DE12 /* AppDelegate.m in Sources */,
 				65AAB169195BE46300F1DE12 /* NSData+Addition.m in Sources */,
-				65B4D81B195D17D1000694F7 /* ShoppingCarViewController.m in Sources */,
 				65AAB122195BDF9100F1DE12 /* main.m in Sources */,
 				65AAB16A195BE46300F1DE12 /* KSModel.m in Sources */,
 				65AAB16B195BE46300F1DE12 /* KSLocalization.m in Sources */,
 				65B4D81E195D17DD000694F7 /* MemberViewController.m in Sources */,
+				847DE40719624C88007DF2C3 /* ProductsListTableViewCell.m in Sources */,
 				6588C917195BE9F40006D00B /* KSTabBarViewController.m in Sources */,
 				65B4D821195D17EC000694F7 /* SettingViewController.m in Sources */,
+				847DE40619624C88007DF2C3 /* ProductModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
