@@ -5,36 +5,36 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>A69B414B-F872-4400-8300-6E5672B6CA78</string>
+	<string>702DE144-AE04-4C33-8E2A-379184CEA6DF</string>
 	<key>IDESourceControlProjectName</key>
 	<string>MaxLife</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>47A01BD1-A90E-4320-94B6-2091DBE24034</key>
-		<string>https://github.com/HangtaiMedia/KS_HTM_Pro.git</string>
+		<key>51F2AB51-FBC3-4DC9-9B8F-D23A45A9A3F0</key>
+		<string>https://github.com/HangtaiMedia/KS_HTM_MaxLife.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>MaxLife.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>47A01BD1-A90E-4320-94B6-2091DBE24034</key>
+		<key>51F2AB51-FBC3-4DC9-9B8F-D23A45A9A3F0</key>
 		<string>..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/HangtaiMedia/KS_HTM_Pro.git</string>
+	<string>https://github.com/HangtaiMedia/KS_HTM_MaxLife.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>47A01BD1-A90E-4320-94B6-2091DBE24034</string>
+	<string>51F2AB51-FBC3-4DC9-9B8F-D23A45A9A3F0</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>47A01BD1-A90E-4320-94B6-2091DBE24034</string>
+			<string>51F2AB51-FBC3-4DC9-9B8F-D23A45A9A3F0</string>
 			<key>IDESourceControlWCCName</key>
-			<string>MaxLife</string>
+			<string>KS_HTM_MaxLife</string>
 		</dict>
 	</array>
 </dict>
