@@ -16,6 +16,8 @@
 @interface MemberViewController : KSViewController<UITableViewDelegate,UITableViewDataSource> {
 
     UITableView *memberTableView;
+    NSArray *memberDataSource;
+    KSModel *ksModel;
     
 }
 
